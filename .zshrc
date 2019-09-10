@@ -103,5 +103,5 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/tools
 export ANDROID_SDK=$HOME/Library/Android/sdk
 export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
-
+export PATH=$HOME/.emacs.d/bin:$PATH
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
